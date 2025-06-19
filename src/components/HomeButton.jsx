@@ -22,7 +22,7 @@ const HomeButton = () => {
   return show ? (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-6 right-6 z-50 bg-purple-700 hover:bg-purple-800 text-white p-3 rounded-full shadow-lg transition-transform hover:scale-110"
+      className="fixed bottom-6 right-6 z-50 bg-cyan-500 hover:bg-cyan-600 text-white p-3 rounded-full shadow-lg transition-transform hover:scale-110"
       aria-label="Scroll to top"
     >
       <FaArrowUp size={20} />

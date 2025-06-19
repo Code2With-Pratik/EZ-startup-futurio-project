@@ -13,7 +13,7 @@ const FeedbackSection = () => {
   const visibleFeedback = showAll ? Feedback : Feedback.slice(0, 3);
 
   return (
-    <section id='feedback' className="bg-gradient-to-b from-purple-900 via-purple-800 to-purple-950 py-20 px-4 md:px-10 text-white">
+    <section id='feedback' className="bg-gradient-to-r from-indigo-500 to-cyan-500 py-20 px-4 md:px-10 text-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">What Our Clients Say</h2>
         

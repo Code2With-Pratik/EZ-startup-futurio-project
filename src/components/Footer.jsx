@@ -17,7 +17,7 @@ const Footer = () => {
 
       {/* Content */}
       <div className="relative max-w-6xl mx-auto text-center z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Enhance Your Brand?</h2>
+        <h2 className="bg-gradient-to-r from-cyan-500 to-indigo-500 bg-clip-text text-transparent text-3xl md:text-4xl font-bold mb-6">Ready to Enhance Your Brand?</h2>
 
         <div className="inline-block bg-white/5 backdrop-blur-md border border-white/10 px-6 py-3 rounded-full mb-8">
           <p className="text-purple-200 text-sm sm:text-base">Booknetservicesinfo@gmail.com</p>
@@ -28,15 +28,16 @@ const Footer = () => {
             <a
               key={i}
               href={item.link}
-              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 hover:border-purple-300 transition-all"
+              className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 text-white hover:text-cyan-400 hover:border-cyan-400 transition-all duration-300"
             >
               {item.icon}
             </a>
           ))}
         </div>
 
+
         <div className="mt-10 border-t border-white/10 pt-6">
-          <p className="text-sm text-purple-300">
+          <p className="text-sm text-cyan-300">
             &copy; 2025 Booknetservices. All rights reserved.
           </p>
         </div>
