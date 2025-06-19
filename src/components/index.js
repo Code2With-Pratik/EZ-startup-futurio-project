@@ -7,6 +7,7 @@ import Features from "./Features.jsx";
 import FeedbackSection from "./Feedback.jsx";
 import Footer from "./Footer.jsx";
 import HomeButton from "./HomeButton.jsx";
+import Contact from "./Contact.jsx";
 
 
 export {
@@ -19,4 +20,5 @@ export {
     FeedbackSection,
     Footer,
     HomeButton,
+    Contact,
 }

@@ -9,15 +9,18 @@ import {
     FeedbackSection,
     Footer,
     HomeButton,
+    Contact
 } from "./components";
+import './index.css'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-white">
+      <div className="relative z-0 bg-white scroll-smooth">
+        <div>
         <Navbar />
         <Hero />
-      </div>
+        </div>
       <About/> 
       <div>
         <Services/>
@@ -27,8 +30,12 @@ function App() {
         <Connect/>
         <FeedbackSection/>
       </div>
+      <div>
+    <Contact/>
     <Footer/>
+      </div>
      <HomeButton /> 
+      </div>
     </BrowserRouter>
   );
 }
