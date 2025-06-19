@@ -10,14 +10,15 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Left Arrow Icon (Logo) */}
         <div className="w-40 h-10 flex items-center justify-center">
-          <img src={logo} alt=""  className=' h-16 rounded-full'/>
-        </div>
+          {/* <img src={logo} alt=""  className=' h-16 rounded-full'/> */}
+          <h1 className='text-3xl text-white font-semibold'>LOGO</h1>
+          </div>
 
         {/* Toggle button for mobile */}
         <div className="md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-[#1c1b33] focus:outline-none"
+            className="text-[#ffffff] focus:outline-none"
           >
             {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -25,7 +26,7 @@ const Navbar = () => {
 
         {/* Navigation Items - Desktop */}
         <div className="hidden md:flex flex-1 justify-center">
-          <div className="bg-gradient-to-b from-[#443377] to-[#5c4e9e] rounded-full px-10 py-3 flex items-center gap-10 shadow-xl">
+          <div className="bg-gradient-to-br from-cyan-500 to-indigo-500 rounded-full px-10 py-3 flex items-center gap-10 shadow-xl">
             <a href="#about" className="text-white text-base font-semibold hover:text-purple-200 transition-all">About</a>
             <a href="#services" className="text-white text-base font-semibold hover:text-purple-200 transition-all">Services</a>
             <a href="#features" className="text-white text-base font-semibold hover:text-purple-200 transition-all">Portfolio</a>
@@ -35,7 +36,7 @@ const Navbar = () => {
 
         {/* Let's Connect Button - Desktop */}
         <div className="hidden md:flex">
-          <button className="ml-auto bg-gradient-to-br from-purple-500 to-indigo-500 text-white text-base font-semibold px-6 py-3 rounded-full shadow-xl hover:opacity-90 transition-all">
+          <button className="ml-auto bg-gradient-to-br from-cyan-500 to-indigo-500 text-white text-base font-semibold px-6 py-3 rounded-full shadow-xl hover:opacity-90 transition-all">
             Let’s Connect
           </button>
         </div>
@@ -43,7 +44,7 @@ const Navbar = () => {
 
       {/* Navigation Items - Mobile */}
       {menuOpen && (
-        <div className="md:hidden mt-4 flex flex-col items-center gap-6 bg-gradient-to-b from-[#443377] to-[#5c4e9e] rounded-xl p-6 shadow-xl">
+        <div className="md:hidden mt-4 flex flex-col items-center gap-6 bg-gradient-to-br from-cyan-600 to-indigo-900 rounded-xl p-6 shadow-xl">
           <a href="#about" className="text-white text-base font-semibold hover:text-purple-200 transition-all">About</a>
           <a href="#services" className="text-white text-base font-semibold hover:text-purple-200 transition-all">Services</a>
           <a href="#features" className="text-white text-base font-semibold hover:text-purple-200 transition-all">Portfolio</a>
