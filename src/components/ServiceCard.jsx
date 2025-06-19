@@ -6,13 +6,13 @@ const ServiceCard = ({ id, title, description, points, image }) => {
     <div className="flex flex-col lg:flex-row items-center justify-between gap-10  py-4 border-b border-white/10">
       {/* Left Section */}
       <div className="w-full lg:w-1/2 space-y-4">
-        <span className="text-purple-400 font-semibold text-sm">{id}</span>
-        <h3 className="text-3xl md:text-4xl font-bold text-white">{title}</h3>
-        <p className="text-gray-300 text-base leading-relaxed">{description}</p>
+        <span className="text-cyan-400 font-semibold text-4xl">{id}</span>
+        <h3 className="text-3xl md:text-4xl font-bold text-cyan-400">{title}</h3>
+        <p className="text-gray-200 text-base leading-relaxed">{description}</p>
         <ul className="mt-4 space-y-2 text-white text-base">
           {points.map((point, index) => (
             <li key={index} className="flex items-start gap-2">
-              <span className="text-purple-400"><ArrowRightCircle/></span> <span>{point}</span>
+              <span className="text-cyan-400"><ArrowRightCircle/></span> <span>{point}</span>
             </li>
           ))}
         </ul>

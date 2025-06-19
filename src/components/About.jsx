@@ -32,7 +32,7 @@ const About = () => {
 
         {/* Text Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-cyan-400 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-500 to-indigo-500 bg-clip-text text-transparent leading-tight">
             Elevate Your Online <br className="hidden md:block" /> Presence with Us
           </h2>
           <p className="text-gray-100 text-lg leading-relaxed">
