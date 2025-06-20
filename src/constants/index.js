@@ -7,6 +7,7 @@ import featureImg1 from '../assets/featureImg1.png';
 import featureImg2 from '../assets/featureImg2.png';
 import featureImg3 from '../assets/featureImg3.png';
 import featureImg4 from '../assets/featureImg4.png';
+import featureImg5 from '../assets/featureImg5.png';
 import clientImg from '../assets/client_img.png';
 import footerImg from '../assets/footerImg.png';
 
@@ -86,21 +87,27 @@ export const FEATURED_PROJECTS = [
   },
   {
     id: 2,
-    title: "Modernbazaar : App & Web App",
+    title: "Modernbazaar : Website & Web App",
     image: featureImg2,
-       link:"https://www.modernbazaar.online/"
+    link:"https://www.modernbazaar.online/"
   },
   {
     id: 3,
     title: "Havenhubinfra : WebSite",
-    image: featureImg3,
+    image: featureImg4,
      link:"https://www.havenhubinfra.com/"
   },
   {
     id: 4,
     title: "EZ Super App : App", 
-    image: featureImg4,
+    image: featureImg5,
     link:"https://play.google.com/store/apps/details?id=com.EZ_M_Three.TheEZStartUP"
+  },
+  {
+    id: 5,
+    title: "Modernbazzar : App", 
+    image: featureImg3,
+    link:"https://www.modernbazaar.online/"
   },
   
 ];
@@ -170,6 +177,7 @@ export {
   featureImg2,
   featureImg3,
   featureImg4,
+  featureImg5,
   clientImg,
   footerImg
 };
