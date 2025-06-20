@@ -35,10 +35,10 @@ const Navbar = () => {
         </div>
 
         {/* Let's Connect Button - Desktop */}
-        <div className="hidden md:flex">
-          <button className="ml-auto bg-gradient-to-br from-cyan-500 to-indigo-500 text-white text-base font-semibold px-6 py-3 rounded-full shadow-xl hover:opacity-90 transition-all">
+       <div className="hidden md:flex">
+          <a href="#connect" className="ml-auto bg-gradient-to-br from-cyan-500 to-indigo-500 text-white text-base font-semibold px-6 py-3 rounded-full shadow-xl hover:opacity-90 transition-all">
             Let’s Connect
-          </button>
+          </a>
         </div>
       </div>
 

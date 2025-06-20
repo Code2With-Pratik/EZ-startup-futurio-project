@@ -48,7 +48,7 @@ const Connect = () => {
   };
 
   return (
-    <section
+    <section id='connect'
       ref={sectionRef}
       className="bg-black text-white py-20 px-6 sm:px-10 md:px-20 transition-all"
     >

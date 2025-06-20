@@ -20,12 +20,18 @@ const Hero = () => (
         Let us help you connect your brand effectively.
       </p>
       <div className="flex flex-wrap justify-center items-center gap-6">
-        <button className="bg-gradient-to-br from-cyan-500 to-indigo-500 text-white font-medium px-8 py-4 rounded-[24px] shadow-lg hover:opacity-90 transition">
-          Let’s Connect
-        </button>
-        <button className="border border-cyan-400 text-white font-medium px-8 py-4 rounded-[24px] shadow-sm hover:bg-gradient-to-br from-cyan-500 to-indigo-500 transition">
+        <div className="hidden md:flex">
+          <a href="#connect" className="ml-auto bg-gradient-to-br from-cyan-500 to-indigo-500 text-white text-base font-semibold px-6 py-3 rounded-full shadow-xl hover:opacity-90 transition-all">
+            Let’s Connect
+          </a>
+        </div>
+        {/* <button className="border border-cyan-400 text-white font-medium px-8 py-4 rounded-[24px] shadow-sm hover:bg-gradient-to-br from-cyan-500 to-indigo-500 transition">
           Explore Our Work
-        </button>
+        </button> */}
+        <a href="#services" className="border border-cyan-400 text-white font-medium px-8 py-4 rounded-[24px] shadow-sm hover:bg-gradient-to-br from-cyan-500 to-indigo-500 transition">
+          Explore Our Work
+        </a>
+
       </div>
     </div>
   </section>
