@@ -1,4 +1,4 @@
-<img src="https://github.com/Code2With-Pratik/Job-Portal/blob/main/image.png?raw=true" alt="Girl in a jacket"  height="600">
+<img src="https://github.com/Code2With-Pratik/EZ-startup-futurio-project/blob/main/src/assets/ReadmdImage.png" alt="Girl in a jacket"  height="600">
 
 # React + Vite
 
