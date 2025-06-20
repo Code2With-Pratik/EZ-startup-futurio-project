@@ -53,20 +53,20 @@ const Contact = () => {
           required
         />
         <input
-  type="tel"
-  name="phone"
-  value={formData.phone}
-  onChange={(e) => {
-    const input = e.target.value;
-    // Only allow digits and max 10 characters
-    if (/^\d{0,10}$/.test(input)) {
-      setFormData({ ...formData, phone: input });
-    }
-  }}
-  placeholder="Phone Number"
-  className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-purple-400 col-span-1"
-  required
-/>
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={(e) => {
+            const input = e.target.value;
+            // Only allow digits and max 10 characters
+            if (/^\d{0,10}$/.test(input)) {
+              setFormData({ ...formData, phone: input });
+            }
+          }}
+          placeholder="Phone Number"
+          className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-purple-400 col-span-1"
+          required
+        />
 
         <input
           type="email"
