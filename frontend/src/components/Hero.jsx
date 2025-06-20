@@ -2,7 +2,7 @@ import React from 'react';
 import bgImage from '../assets/HeroBgImage.png';
 
 const Hero = () => (
-  <section className="relative w-full h-screen overflow-hidden text-center px-4 md:px-8 lg:px-20 flex flex-col justify-center items-center">
+  <section id='hero' className="relative w-full h-screen overflow-hidden text-center px-4 md:px-8 lg:px-20 flex flex-col justify-center items-center">
     {/* Background image using <img> */}
     <img
       src={bgImage}

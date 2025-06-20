@@ -6,12 +6,14 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full absolute top-0 z-50 px-6 md:px-12 lg:px-8 py-6">
+    <nav className="w-full fixed top-0 left-0 bg-transparent backdrop-blur-sm z-50 px-6 md:px-12 lg:px-8 py-6">
       <div className="flex items-center justify-between">
         {/* Left Arrow Icon (Logo) */}
         <div className="w-40 h-10 flex items-center justify-center">
           {/* <img src={logo} alt=""  className=' h-16 rounded-full'/> */}
-          <h1 className='text-3xl text-white font-semibold'>LOGO</h1>
+          <a href="#hero">
+           <h1 className='text-3xl text-white font-semibold'>LOGO</h1>
+          </a>
           </div>
 
         {/* Toggle button for mobile */}
